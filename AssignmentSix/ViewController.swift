@@ -21,9 +21,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //1. Set the displayTextLabel text to a string with no characters
-        
-        self.displayTextLabel.text = ""
-        
+             self.displayTextLabel.text = ""
+     
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,7 +39,7 @@ class ViewController: UIViewController {
         userText = self.textField.text
     
     //4. Set the displayTextLabel text to the user input text
-    self.displayTextLabel.text = userText
+        self.displayTextLabel.text = userText
     
     }
     
